@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css"> 
+</head>
+<body> 
+    <header>
+        <nav>
+            <div>
+                    <img id='logo' src="res/section2GMCLogo.png " width="100px" />
+
+            </div>
+              
+            <div class="navbar">
+        <ul>
+                <li>
+                        <a href="index.html">
+                            Home 
+                        </a></li>
+                        <li> <a href="courses.html">
+                            courses 
+                        </a></li>
+                        <li> <a href="contact.html">
+                            contact 
+                            </a> </li>
+                 </div>
+            </ul>
+        </nav>
+        </header> 
+        <div class="image">
+                <h1 class="heading"> courses</h1>
+                <img src="./res/web3.png" alt="web3">
+                </div>
+                <div class="img">
+               <img src="./res/Objet dynamique vectoriel.png">
+               <img src="./res/Objet dynamique vectoriel2 (1).png" >
+               <img src="./res/Objet dynamique vectoriel2.png">
+               <img src="./res/Objet dynamique vectoriel4.png">
+               <img src="./res/Objet dynamique vectoriel5.png">
+               <img src="./res/Objet dynamique vectoriel6.png">
+               <img src="./res/Objet dynamique vectoriel7.png">
+               <img src="./res/Objet dynamique vectoriel8.png">
+                </div>
+        <center>
+             <div class=h4>
+            <h4 >feedback</h4>
+        </div>
+<div class = button>
+            <button onclick="bold();">b</button>
+            <button onclick="italic();">i</button>
+            <button onclick="underline();">underline</button>      
+         
+           
+            <select onchange="changeSize();" id="selectSize">
+
+                <option value="100px">10px</option>
+                <option value="20px">20px</option>
+                <option value="30px">30px</option>
+            </select>
+            
+            <select onchange="change();" id="select">
+
+                <option value="Arial">Arial</option>
+                <option value="Verdane">Verdane</option>
+                <option value="Geneva">Geneva</option>
+            </select>
+        </div>
+                <textarea id="textarea" cols="50" rows="10"></textarea>
+        
+        </center>
+    
+     <script src="main.js">
+     </script>
+</body>
+</html>
